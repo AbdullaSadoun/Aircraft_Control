@@ -1,0 +1,42 @@
+============================================================
+STABILITY ANALYSIS REPORT
+============================================================
+
+Trim Condition:
+  Velocity: 30.00 m/s
+  Altitude: 0.00 m
+  Angle of Attack: 11.61 deg
+
+Longitudinal Modes
+------------------------------------------------------------
+
+mode_1:
+  Eigenvalue: (0.6703720736063199-0.5171439960300283j)
+  Type: complex
+  Stability: unstable
+  Damping Ratio: -0.7918
+  Natural Frequency: 0.8467 rad/s
+  Period: 12.15 s
+
+mode_3:
+  Eigenvalue: (-2.440973951746271-1.7131893964929987j)
+  Type: complex
+  Stability: stable
+  Damping Ratio: 0.8185
+  Natural Frequency: 2.9822 rad/s
+  Period: 3.67 s
+
+Handling Qualities Assessment
+------------------------------------------------------------
+
+SHORT_PERIOD:
+  damping_ratio: 0.8185211804574546
+  natural_frequency: 2.982175672451214
+  level: 1
+  acceptable: True
+
+PHUGOID:
+  damping_ratio: -0.7917823555470597
+  period: 12.149779085542646
+  level: 4
+  acceptable: False

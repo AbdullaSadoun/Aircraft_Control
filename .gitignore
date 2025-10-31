@@ -34,8 +34,12 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Plots and outputs
+# Plots and outputs (generated at runtime)
 *.png
 *.jpg
 *.pdf
 results/
+
+# But allow documentation images if added
+!docs/*.png
+!docs/*.jpg
